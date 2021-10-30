@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.autenticadoController">
+   <children>
+      <Label layoutX="144.0" layoutY="74.0" text="Hola, bienvenido">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="142.0" text="Nombre">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="185.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="236.0" text="Contraseña">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="280.0" text="Telefono">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="nombreCampo" layoutX="321.0" layoutY="147.0" prefHeight="17.0" prefWidth="142.0" />
+      <Label fx:id="correoCampo" layoutX="321.0" layoutY="192.0" prefHeight="17.0" prefWidth="142.0" />
+      <Label fx:id="passCampo" layoutX="327.0" layoutY="241.0" prefHeight="17.0" prefWidth="142.0" />
+      <Label fx:id="telCampo" layoutX="327.0" layoutY="285.0" prefHeight="17.0" prefWidth="142.0" />
+   </children>
+</Pane>
